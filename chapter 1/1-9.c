@@ -6,7 +6,7 @@ int main()
 {
     int c, prev;
 
-    if (c = getchar() != EOF) {
+    if ((c = getchar()) != EOF) {
         if (c != ' ') {
             putchar(c);
         }
