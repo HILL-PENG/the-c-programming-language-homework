@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 #define NONBLANK 'nonblank'
-//
+// replace string of blanks with a single blank
 int main()
 {
     int c, prev;

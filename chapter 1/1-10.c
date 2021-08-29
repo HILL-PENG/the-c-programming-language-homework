@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// replace tabs and backspaces with visible characters
 int main()
 {
     int c;

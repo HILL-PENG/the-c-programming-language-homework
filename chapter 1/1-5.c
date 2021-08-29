@@ -21,6 +21,7 @@
 //    }
 //}
 
+// print Fahrenheit-Celsius table in reverse order
 int main()
 {
     int fahr;

@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// count blanks tabs and newlines
 int main()
 {
     int c, countb, countt, countc;
@@ -7,7 +8,7 @@ int main()
     countt = 0;
     countc = 0;
 
-    while (c = getchar() != EOF)
+    while ((c = getchar()) != EOF)
         if (c == '\b')
             ++countb;
         if (c == '\t')
