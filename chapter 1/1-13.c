@@ -55,5 +55,5 @@ int main()
         putchar('\n');
     }
     if (ovflow > 0)
-        printf("There are %d words >= %d\n", ovflow, MAXWORD);
+        printf("There are %d words >= %d \n", ovflow, MAXWORD);
 }
